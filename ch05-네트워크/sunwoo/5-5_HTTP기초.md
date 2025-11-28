@@ -56,15 +56,20 @@ URI(Uniform Resource Identifier)는 웹 상에서의 자원을 식별하기 위�
 - 이름을 기반으로 식별 → URN(Uniform Resource Name)
 - 위치를 기반으로 식별 → URL(Uniform Resource Locator)
 <img width="1280" height="179" alt="image" src="https://github.com/user-attachments/assets/a35bacfd-2828-4d54-98d8-04673da92660" />
+
 - scheme: 자원에 접근하는 방법
-    - 일반적으로 사용할 프로토콜이 명시됨 - http, https
+    - 일반적으로 사용할 프로토콜이 명시됨 (http, https)
+ 
 - authority: 호스트를 특정할 수 있는 IP주소나 도메인 네임
     - 콜론(:) 뒤에 포트 번호를 명시할 수 있음
+ 
 - path: 자원이 위치하고 있는 경로
     - 슬래시(/)를 기준으로 계층적으로 표현됨
+ 
 - query: URL에 대한 매개변수 역할을 하는 문자열
     - 쿼리 문자열(query string), 쿼리 파라미터(query parameter)로 불림
     - 물음표 시작되는 <키=값> 형태의 데이터로, &를 사용하여 여러 쿼리 문자열을 연결할 수 있음
+ 
 - fragment: 자원의 일부분, 자원의 한 조각을 가리키기 위한 정보
     - 일반적으로 HTML 파일과 같은 자원에서 특정 부분을 가리키는 데 사용됨
 
